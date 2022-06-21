@@ -1,0 +1,63 @@
+body {
+  font-family: merriweather;
+  text-align: center;
+  font-size: 14px;
+  text-align: left;
+  background: #c5c6c7;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+#navbar {
+  width: auto;
+  border-right: 2px solid #2f4454;
+}
+#main-header {
+  width: auto;
+  overflow: scroll;
+}
+#navbar ul li {
+  list-style: none;
+  border-top: 2px solid #2f4454;
+}
+#navbar header {
+  text-align: center;
+}
+#Introduction {
+  margin-top: 20px;
+}
+pre {
+  background: darkgrey;
+  font-size: 0.7em;
+  color: #434434;
+}
+
+@media screen and (min-width: 800px) {
+  #navbar {
+    height: 100%;
+    width: 100%;
+  }
+  #main-header {
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+  }
+  #main-doc {
+    position: relative;
+  }
+  article {
+    width: 66%;
+    height: 100%;
+    margin-left: 420px;
+  }
+}
+@media screen and (max-width: 768) {
+  body {
+    width: 200px;
+    height: 100%;
+    font-size: 2px;
+  }
+}
